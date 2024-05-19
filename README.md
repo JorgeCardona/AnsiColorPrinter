@@ -28,6 +28,9 @@ print(acp.red("Hello, World!"))
 
 # Print bold blue text
 print(acp.blue("Welcome!", formats=["bold"]))
+
+# Print bold red multiple formats
+print(acp.cyan("Multi Formats", formats=['underlined', 'bold', 'reverse']))                                            
 ```
 
 ## Available Colors
@@ -193,3 +196,5 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+Feel free to customize and expand upon this template as needed for your project!
