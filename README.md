@@ -15,13 +15,13 @@ The ANSI Color Printer is a Python package that provides functionality to print 
 You can install the ANSI Color Printer package via pip:
 
 ```bash
-pip install ansi-color-printer
+pip install AnsiColorPrinter
 ```
 
 ## Usage
 
 ```python
-import ansi_color_printer as acp
+import AnsiColorPrinter as acp
 
 # Print red text
 print(acp.red("Hello, World!"))
